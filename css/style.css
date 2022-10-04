@@ -8,6 +8,10 @@
     border: 1px solid black;
 }
 
+body{
+    font-size: 20px;
+}
+
 /* intestazione */
 header{
     min-height: 570px;
@@ -56,10 +60,6 @@ header{
 /* fine intestazione */
 
 /* main */
-main{
-    height: 600px;
-}
-
 .flex-container{
     display: flex;
     max-width: 1200px;
@@ -96,6 +96,10 @@ main section:last-child{
 /* fine main */
 
 /* footer */
+footer{
+    background-color: #23272a;
+}
+
 .footer-top{
     display: flex;
     margin: 0 auto;
@@ -109,21 +113,28 @@ footer .main-col{
     background-color: #f6f6f6;
 }
 
-footer .menu-col{
+footer .menu-col {
     flex-basis: 70%;
     background-color: aqua;
     display: flex;
     justify-content: space-between;
 }
 
-.footer-boottom{
+footer .menu-col .col{
+    flex-basis: 25%;
+}
+
+.footer-bottom{
     display: flex;
     height: 80px;
     margin: 0 auto;
     max-width: 1200px;
     justify-content: space-between;
     align-items: center;
-    background-color: aqua;
+}
 
+.footer-bottom .col{
+    background-color: violet;
+    padding: 5px 10px;
 }
 /* fine footer */
