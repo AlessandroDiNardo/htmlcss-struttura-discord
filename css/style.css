@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col{
+    border: 1px solid black;
+}
+
+/* intestazione */
+header{
+    min-height: 570px;
+    background-color: #404eed;
+}
+
+.topbar{
+    display: flex;
+    height: 70px;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+}
+
+.logo{      
+    width: 20%;
+    text-align: left;
+}
+.menu{
+    width: 60%;
+    text-align: center;
+}
+
+.login{
+    width: 20%;
+    text-align: right;
+}
+
+.topbar > div {
+    background-color: yellow;
+    padding: 10px;
+}
+
+.header-main{
+    display: flex;
+    height: 500px;
+    padding: 30px;
+    justify-content: center;
+}
+
+.header-main > div{
+    height: 100%;
+    width: 50%;
+    background-color: yellow;
+}
+/* fine intestazione */
+
+/* main */
+main{
+    height: 600px;
+}
+
+.flex-container{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 50px 0 50px 0;
+}
+
+.bg-grey{
+    background-color:  #f6f6f6;
+}
+
+.big-col{
+    height: 600px;
+    width: 60%;
+    background-color: red;
+}
+
+.small-col{
+    height: 600px;
+    width: 40%;
+    background-color: pink;
+}
+
+main section:last-child{
+    height: 1000px;
+}
+
+.extra-big-col{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+/* fine main */
+
+/* footer */
+.footer-top{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 600px;
+    padding: 10px 0 10px 0;
+}
+
+footer .main-col{
+    flex-basis: 30%;
+    background-color: #f6f6f6;
+}
+
+footer .menu-col{
+    flex-basis: 70%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-boottom{
+    display: flex;
+    height: 80px;
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+
+}
+/* fine footer */
